@@ -11,14 +11,14 @@ The number of dogs will always be a number and there will always be at least 1 d
 */
 
 function howManyDalmatians(n){
-    let dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
-       if (n <= 10){
-         return dogs[0]
-       }else if (n > 10 && n <= 50){
-         return dogs[1]
-       }else if( n > 50 && n <= 100){
-         return dogs[2]
-       }else if(n == 101){
-         return dogs[3]
+    let dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"]; //dogs stores a array of string
+       if (n <= 10){ //check if n is less or equal 10 
+         return dogs[0] // if n <= 10 is true return dogs in index 0
+       }else if (n > 10 && n <= 50){ //checks if n is greater than 10 and less than or equal to 50
+         return dogs[1] //if n is greater than 10 and less than or equal to 5 is true return dogs in index 1
+       }else if( n > 50 && n <= 100){ //checks if n is greater than 50 and less than or equal to 100
+         return dogs[2] //if n is greater than 50 and less than or equal to 100 is true return dogs in index 2
+       }else if(n == 101){ // if n == 101
+         return dogs[3] // if n == 101 is true, returns dogs in index 3        
        }
 }
