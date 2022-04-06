@@ -21,4 +21,4 @@ function capitals(word) {
     return count
 };
 
-//console.log(capitals('CodEWaRs')) //test
+console.log(capitals('aOEsHRbWcq')) 
